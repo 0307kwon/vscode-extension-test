@@ -1,6 +1,6 @@
 {
-  "name": "vscode-extension-test",
-  "displayName": "vscode-extension-test",
+  "name": "0307kwon-test",
+  "displayName": "0307kwon-test",
   "description": "For testing",
   "version": "0.0.1",
   "engines": {
@@ -12,6 +12,7 @@
   "activationEvents": [
     "onCommand:vscode-extension-test.helloWorld"
   ],
+  "repository": "https://github.com/0307kwon/vscode-extension-test",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -21,6 +22,7 @@
       }
     ]
   },
+  "publisher": "0307kwon",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
